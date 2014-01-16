@@ -1,0 +1,12 @@
+<h1>Realtime Map</h1>
+
+<div style='width: 1060px;'>
+  <div id="map-canvas" style='width: 1060px; height: 520px;'></div>
+</div>
+
+<button type="button" class="btn btn-default remove-error-markers">Remove error markers</button>
+<button type="button" class="btn btn-default remove-all-markers">Remove all markers</button>
+
+<%= javascript_tag do %>
+  window.map_data_json = <%= raw map_data.to_json() %>
+<% end %>
