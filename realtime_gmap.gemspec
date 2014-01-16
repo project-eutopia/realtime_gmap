@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = RealtimeGmap::VERSION
   s.authors     = ["Christopher Locke"]
   s.email       = ["clocke@degica.com"]
-  s.homepage    = "www.degica.com"
+  s.homepage    = "https://www.degica.com"
   s.summary     = "Summary of RealtimeGmap."
   s.description = "Description of RealtimeGmap."
 
